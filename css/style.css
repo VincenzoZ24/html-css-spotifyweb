@@ -21,16 +21,27 @@ aside{
     right: 0;
     top: 0;
     bottom: 0;
+    
 }
 .container-side-bar{
+    height: 100%;
     font-size: 13px;
     padding: 1rem 1rem;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 .container-side-bar img{
     width: 150px;
 }
 .logo{
     margin-bottom: 2rem;
+}
+.logo-small{
+    width: 20px;
+    display: none;
 }
 .elements-side{
     color: #808080;
@@ -71,11 +82,16 @@ aside{
     margin-bottom: 1rem;
     list-style: none;
 }
+.profilo{
+    /* position: absolute; */
+    bottom: 2px;
+}
 .info-profilo{
     display: flex;
     align-items: center;
     color: gray;
     font-size: 10px;
+    margin-bottom: .5rem;
 }
 .info-profilo img{
     width:  20px;
@@ -83,11 +99,59 @@ aside{
     margin-right: .5rem;
     
 }
+.bordo{
+    border: 1px solid gray;
+    margin-bottom: .5rem;
+}
+.nome-profilo{
+    color: white;
+    display: flex;
+    align-items: center;
+   
+}
+.nome-profilo img{
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
 
+@media (max-width: 560px) {
+    .casa, .cerca, .libreria{
+       display: none;
+    }
+    .playlist-container{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .container-side-bar .logo-small{
+        display: block;
+        width: 20px;
+        margin-bottom: 1rem;
+        
+    }
+    .app, .bordo, .nome-profilo h4{
+        display: none;
+    }
+    aside{
+        width: 3rem;
+    }
+    .home img{
+        
+    }
+    .container-side-bar{
+        align-items: center;
+    }
+   main{
+    margin-left: 3rem;
+   }
+}
 
-main{
-    height: calc(calc(100vh - 100px));
+/* main{
+    height: calc(100vh - 100px);
     background-color: lightgrey;
     margin-left: 200px;
     overflow:scroll;
-}
+} */
