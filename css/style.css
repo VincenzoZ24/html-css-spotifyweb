@@ -24,6 +24,7 @@ aside{
 }
 .container-side-bar{
     font-size: 13px;
+    padding: 1rem 1rem;
 }
 .container-side-bar img{
     width: 150px;
@@ -53,6 +54,7 @@ aside{
 .crea-playlist{
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 .playlist-container i{
     background-color: gray;
@@ -61,6 +63,13 @@ aside{
 }
 .crea{
     color: gray;
+}
+.nome-playlist{
+    color: gray;
+}
+.nome-playlist li{
+    margin-bottom: 1rem;
+    list-style: none;
 }
 
 
