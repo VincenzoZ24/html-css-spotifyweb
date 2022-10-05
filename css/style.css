@@ -42,6 +42,28 @@ aside{
     margin-right: 0.5rem;
     display: block;
 }
+.playlist-container h2{
+    color: white;
+    font-size: small;
+    margin-bottom: 1rem;
+}
+.playlist-container{
+    margin-top: 2rem;
+}
+.crea-playlist{
+    display: flex;
+    align-items: center;
+}
+.playlist-container i{
+    background-color: gray;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+}
+.crea{
+    color: gray;
+}
+
+
 main{
     height: calc(calc(100vh - 100px));
     background-color: rgb(196, 40, 40);
