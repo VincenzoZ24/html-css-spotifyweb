@@ -116,6 +116,13 @@ aside{
     margin-right: .5rem;
 }
 
+.elements-side:hover{
+    color: white;
+}
+.nome-playlist li:hover{
+    color: white;
+}
+
 @media (max-width: 560px) {
     .casa, .cerca, .libreria{
        display: none;
@@ -137,9 +144,6 @@ aside{
     }
     aside{
         width: 3rem;
-    }
-    .home img{
-        
     }
     .container-side-bar{
         align-items: center;
