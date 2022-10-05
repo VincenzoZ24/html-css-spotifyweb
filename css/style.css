@@ -71,11 +71,23 @@ aside{
     margin-bottom: 1rem;
     list-style: none;
 }
+.info-profilo{
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 10px;
+}
+.info-profilo img{
+    width:  20px;
+    display: block;
+    margin-right: .5rem;
+    
+}
 
 
 main{
     height: calc(calc(100vh - 100px));
-    background-color: rgb(196, 40, 40);
+    background-color: lightgrey;
     margin-left: 200px;
     overflow:scroll;
 }
