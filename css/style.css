@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* footer{
+footer{
     height: 100px;
     background-color: #282828;
     position: fixed;
@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     z-index: 80;
-} */
+}
 aside{
     height: calc(100vh - 100px);
     width: 200px;
@@ -32,7 +32,7 @@ aside{
     margin-bottom: 2rem;
 }
 .elements-side{
-    color: white;
+    color: #808080;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
@@ -42,9 +42,9 @@ aside{
     margin-right: 0.5rem;
     display: block;
 }
-/* main{
+main{
     height: calc(calc(100vh - 100px));
     background-color: rgb(196, 40, 40);
     margin-left: 200px;
     overflow:scroll;
-} */
+}
