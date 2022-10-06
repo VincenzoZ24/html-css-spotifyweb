@@ -154,12 +154,34 @@ aside{
     margin-left: 3rem;
    }
 }
+/* footer  */
 .container-footer{
-    height: 20px;
-    width: 100%;
-    padding: 0 1rem;
-    background-color: aliceblue;
+    display: flex;
+    /* align-items: center; */
 }
+
+.container-footer img{
+    width: 50px;
+    margin-right: .5rem;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+.nome-brano-footer{
+    color: white;
+    font-size: 12px;
+}
+.nome-brano-footer div{
+    color: gray;
+}
+.icon i{
+    font-size: 20px;
+    color: white;
+    padding: 0 1rem;
+}
+
+
 /* main{
     height: calc(100vh - 100px);
     background-color: lightgrey;
