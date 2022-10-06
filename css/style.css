@@ -3,17 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-footer{
-    height: 100px;
-    background-color: #282828;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 80;
-    display: flex;
-    align-items: center;
-}
+
 aside{
     height: calc(100vh - 100px);
     width: 200px;
@@ -125,6 +115,93 @@ aside{
     color: white;
 }
 
+
+/* footer  */
+footer{
+    height: 100px;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 80;
+    display: flex;
+    align-items: center;
+}
+.container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer img{
+    width: 50px;
+    margin-right: .5rem;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+.nome-brano-footer{
+    color: white;
+    font-size: 12px;
+}
+.nome-brano-footer div{
+    color: gray;
+}
+.icon{
+    display: flex;
+}
+.icon i{
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    display: block;
+
+}
+.control-bar{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    position: relative;
+    
+}
+.control-bar:hover{
+    height: 4px;
+}
+.footer-center{
+    
+}
+.bar-small{
+    width: 30%;
+    height: 2px;
+    background-color: lightgrey;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bar-small:hover{
+    background-color: greenyellow;
+    height: 100%;
+}
+.footer-right{
+    color: white;
+   
+}
+.footer-right i{
+    padding: 0 1rem;
+    
+}
+/* main  */
+main{
+    height: calc(100vh - 100px);
+    background-color:rgba(20, 25, 34, 1);
+    margin-left: 200px;
+    overflow:scroll;
+}
 @media (max-width: 560px) {
     .casa, .cerca, .libreria{
        display: none;
@@ -154,37 +231,3 @@ aside{
     margin-left: 3rem;
    }
 }
-/* footer  */
-.container-footer{
-    display: flex;
-    /* align-items: center; */
-}
-
-.container-footer img{
-    width: 50px;
-    margin-right: .5rem;
-}
-.footer-left{
-    display: flex;
-    align-items: center;
-}
-.nome-brano-footer{
-    color: white;
-    font-size: 12px;
-}
-.nome-brano-footer div{
-    color: gray;
-}
-.icon i{
-    font-size: 20px;
-    color: white;
-    padding: 0 1rem;
-}
-
-
-/* main{
-    height: calc(100vh - 100px);
-    background-color: lightgrey;
-    margin-left: 200px;
-    overflow:scroll;
-} */
