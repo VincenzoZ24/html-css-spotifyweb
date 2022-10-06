@@ -206,7 +206,6 @@ main{
     max-width: 800px;
     margin: auto;
     padding: 0 1rem;
-    
 }
 
 .list-nav-main li{
@@ -257,4 +256,15 @@ main{
    main{
     margin-left: 3rem;
    }
+}
+@media (max-width: 550px) {
+    .icon i{
+        font-size: 15px;
+        padding: 0 .5rem;
+    }
+    .footer-right i{
+        padding: 0 0.5rem;
+        font-size: 15px;
+        margin-right: -0.5rem;
+    }
 }
