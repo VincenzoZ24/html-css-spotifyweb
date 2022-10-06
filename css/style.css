@@ -205,6 +205,7 @@ main{
 .container-main{
     max-width: 800px;
     margin: auto;
+    padding: 0 1rem;
     
 }
 
@@ -222,7 +223,7 @@ main{
 }
 .list-nav-main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     
 }
