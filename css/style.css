@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-aside{
+aside {
     height: calc(100vh - 100px);
     width: 200px;
     background-color: black;
@@ -14,9 +14,10 @@ aside{
     top: 0;
     bottom: 0;
     z-index: 40;
-    
+
 }
-.container-side-bar{
+
+.container-side-bar {
     height: 100%;
     font-size: 13px;
     padding: 1rem 1rem;
@@ -24,101 +25,120 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
-.container-side-bar img{
+
+.container-side-bar img {
     width: 150px;
 }
-.logo{
+
+.logo {
     margin-bottom: 2rem;
 }
-.logo-small{
+
+.logo-small {
     width: 20px;
     display: none;
 }
-.elements-side{
+
+.elements-side {
     color: #808080;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
 }
-.elements-side img{
+
+.elements-side img {
     width: 20px;
     margin-right: 0.5rem;
     display: block;
 }
-.playlist-container h2{
+
+.playlist-container h2 {
     color: white;
     font-size: small;
     margin-bottom: 1rem;
 }
-.playlist-container{
+
+.playlist-container {
     margin-top: 2rem;
 }
-.crea-playlist{
+
+.crea-playlist {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
 }
-.playlist-container i{
+
+.playlist-container i {
     background-color: gray;
     padding: 0.6rem;
     margin-right: 0.5rem;
 }
-.crea{
+
+.crea {
     color: gray;
 }
-.nome-playlist{
+
+.nome-playlist {
     color: gray;
 }
-.nome-playlist li{
+
+.nome-playlist li {
     margin-bottom: 1rem;
     list-style: none;
 }
-.profilo{
+
+.profilo {
     /* position: absolute; */
     bottom: 2px;
 }
-.info-profilo{
+
+.info-profilo {
     display: flex;
     align-items: center;
     color: gray;
     font-size: 10px;
     margin-bottom: .5rem;
 }
-.info-profilo img{
-    width:  20px;
+
+.info-profilo img {
+    width: 20px;
     display: block;
     margin-right: .5rem;
-    
+
 }
-.bordo{
+
+.bordo {
     border: 1px solid gray;
     margin-bottom: .5rem;
 }
-.nome-profilo{
+
+.nome-profilo {
     color: white;
     display: flex;
     align-items: center;
-   
+
 }
-.nome-profilo img{
+
+.nome-profilo img {
     width: 25px;
     background-color: gray;
     border-radius: 50%;
     margin-right: .5rem;
 }
 
-.elements-side:hover{
+.elements-side:hover {
     color: white;
 }
-.nome-playlist li:hover{
+
+.nome-playlist li:hover {
     color: white;
 }
 
 
 /* footer  */
-footer{
+footer {
     height: 100px;
     background-color: #282828;
     position: fixed;
@@ -130,32 +150,38 @@ footer{
     align-items: center;
     padding: 0 1rem;
 }
-.container-footer{
+
+.container-footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container-footer img{
+.container-footer img {
     width: 50px;
     margin-right: .5rem;
 }
-.footer-left{
+
+.footer-left {
     display: flex;
     align-items: center;
 }
-.nome-brano-footer{
+
+.nome-brano-footer {
     color: white;
     font-size: 12px;
 }
-.nome-brano-footer div{
+
+.nome-brano-footer div {
     color: gray;
 }
-.icon{
+
+.icon {
     display: flex;
 }
-.icon i{
+
+.icon i {
     width: 100%;
     font-size: 20px;
     color: white;
@@ -164,18 +190,20 @@ footer{
     display: block;
 
 }
-.control-bar{
+
+.control-bar {
     width: 100%;
     height: 2px;
     background-color: gray;
     position: relative;
-    
+
 }
-.control-bar:hover{
+
+.control-bar:hover {
     height: 4px;
 }
 
-.bar-small{
+.bar-small {
     width: 30%;
     height: 2px;
     background-color: lightgrey;
@@ -183,21 +211,24 @@ footer{
     left: 0;
     top: 0;
 }
-.bar-small:hover{
+
+.bar-small:hover {
     background-color: greenyellow;
     height: 100%;
 }
-.footer-right{
+
+.footer-right {
     color: white;
-   
-}
-.footer-right i{
-    padding: 0 1rem;
-    
+
 }
 
- /* barra publicità  */
-.bar-pubblicità{
+.footer-right i {
+    padding: 0 1rem;
+
+}
+
+/* barra publicità  */
+.bar-pubblicità {
     height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -205,102 +236,154 @@ footer{
     right: 0;
     left: 0;
 }
-.bar-pubblicità div{
+
+.bar-pubblicità div {
     width: 100%;
     height: 100%;
     position: relative;
-    
-}
-.bar-pubblicità button{
-   position: absolute;
-   top: 0;
-   right: 0;
-   padding: .5rem;
-   border-radius: 2rem;
-   border: 1px solid white;
-   background-color: rgba(0, 0, 0, 0.5);
-   color: white;
-   margin: 2rem 1rem;   
-}
-button:hover{
-    transform: scale(1.2);
-     
-}
-/* main  */
-main{
-    height: calc(100vh - 100px);
-    background-color:rgba(20, 25, 34, 1);
-    margin-left: 200px;
-    padding-top: 110px;
-    overflow:scroll;
+
 }
 
-.container-main{
+.bar-pubblicità button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 2rem 1rem;
+}
+
+button:hover {
+    transform: scale(1.2);
+
+}
+
+/* main  */
+main {
+    height: calc(100vh - 100px);
+    background-color: rgba(20, 25, 34, 1);
+    margin-left: 200px;
+    padding-top: 110px;
+    overflow: scroll;
+}
+
+.container-main {
     max-width: 800px;
     margin: auto;
     padding: 0 1rem;
+    padding-bottom: 2rem;
 }
 
-.list-nav-main li{
+.list-nav-main li {
     list-style: none;
     font-size: 15px;
     margin-bottom: 1rem;
-    
+
 }
 
-.link-list{
+.link-list {
     text-decoration: none;
     margin-right: 1rem;
     display: block;
     color: gray;
 }
-.link-list:hover{
+
+.link-list:hover {
     color: white;
-    
+
 }
-.list-nav-main{
+
+.list-nav-main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
+
+h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.container-songs {
+    max-width: 1100px;
+    padding: 0 1rem;
+}
+.song{
+    width: calc((1100px - 6rem) / 6);
+}
+.song img{
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.titolo{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 560px) {
-    .casa, .cerca, .libreria{
-       display: none;
-    }
-    .playlist-container{
+
+    .casa,
+    .cerca,
+    .libreria {
         display: none;
     }
-    .logo{
+
+    .playlist-container {
         display: none;
     }
-    .container-side-bar .logo-small{
+
+    .logo {
+        display: none;
+    }
+
+    .container-side-bar .logo-small {
         display: block;
         width: 20px;
         margin-bottom: 1rem;
-        
+
     }
-    .app, .bordo, .nome-profilo h4{
+
+    .app,
+    .bordo,
+    .nome-profilo h4 {
         display: none;
     }
-    aside{
+
+    aside {
         width: 3rem;
     }
-    .container-side-bar{
+
+    .container-side-bar {
         align-items: center;
     }
-   main{
-    margin-left: 3rem;
-   }
+
+    main {
+        margin-left: 3rem;
+    }
 }
+
 @media (max-width: 550px) {
-    .icon i{
+    .icon i {
         font-size: 15px;
         padding: 0 .5rem;
     }
-    .footer-right i{
+
+    .footer-right i {
         padding: 0 0.5rem;
         font-size: 15px;
         margin-right: -0.5rem;
