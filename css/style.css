@@ -305,16 +305,21 @@ main {
 
 h2 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 .container-songs {
-    max-width: 1100px;
+    max-width:100% ;
     padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
-.song{
-    width: calc((1100px - 6rem) / 6);
+.content-song{
+    flex: 1 1 calc((100% - 7rem) / 6);
 }
+
 .song img{
     width: 100%;
     display: block;
@@ -324,16 +329,26 @@ h2 {
     text-align: center;
     color: white;
     font-weight: 900;
+    padding: .3rem;
+}
+
+.subtitle{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
 }
 
 
-
-
-
-
-
-
-
+@media (max-width: 860px) {
+    .content-song{
+        flex: 0 1 calc((100% - 3rem) / 4);
+    }
+}
+@media (max-width: 700px) {
+    .content-song{
+        flex: 0 1 calc((100% - 1rem) / 2);
+    } 
+}
 
 @media (max-width: 560px) {
 
