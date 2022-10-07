@@ -345,8 +345,20 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
-
+.piu-ascoltati{
+    max-width:100% ;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.piu-ascoltati img{
+    border-radius: 100%;
+    object-fit: cover;
+}
 @media (max-width: 1020px) {
     .content-song{
         flex: 0 1 calc((100% - 3rem) / 4);
