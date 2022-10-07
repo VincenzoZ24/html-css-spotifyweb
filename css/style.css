@@ -309,15 +309,16 @@ h2 {
     padding: 0 1rem;
 }
 
-.container-songs {
+.recently-played {
     max-width:100% ;
     padding: 0 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 .content-song{
-    flex: 1 1 calc((100% - 7rem) / 6);
+    flex: 0 1 calc((100% - 7rem) / 6);
 }
 
 .song img{
@@ -338,8 +339,15 @@ h2 {
     text-align: center;
 }
 
+.creato-per{
+    max-width:100% ;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-@media (max-width: 860px) {
+@media (max-width: 1020px) {
     .content-song{
         flex: 0 1 calc((100% - 3rem) / 4);
     }
